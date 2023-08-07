@@ -1,7 +1,7 @@
 [package]
-name = "win11react"
+name = "MEWebOS"
 version = "0.3.0"
-description = "Windows 11 in React"
+description = "A web based privacy os"
 authors = ["blueedgetechno"]
 license = ""
 repository = ""

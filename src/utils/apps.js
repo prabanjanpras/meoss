@@ -47,13 +47,6 @@ const apps = [
     action: "MSEDGE",
   },
   {
-    name: "Buy me a coffee",
-    icon: "buyme",
-    type: "app",
-    action: "EXTERNAL",
-    payload: "https://www.buymeacoffee.com/blueedgetechno",
-  },
-  {
     name: "Store",
     icon: "store",
     type: "app",
@@ -65,7 +58,7 @@ const apps = [
     type: "app",
   },
   {
-    name: "Blue",
+    name: "MEWebOS",
     icon: "win/user",
     type: "short",
   },
@@ -117,7 +110,7 @@ const apps = [
     icon: "help",
     type: "app",
     action: "EXTERNAL",
-    payload: "https://win11react-docs.andrewstech.me/",
+    payload: "https://dev-milkyupizise.pantheonsite.io",
   },
   {
     name: "Yammer",
@@ -129,7 +122,13 @@ const apps = [
     icon: "mail",
     type: "app",
     action: "EXTERNAL",
-    payload: "mailto:blueedgetechno@gmail.com",
+    payload: "mailto:milkyupizisecompany@gmail.com",
+  },
+  {
+    name: "MilkyUpizise",
+    icon: "edge",
+    type: "app",
+    action: "Milkyupizise",
   },
   {
     name: "Movies",
@@ -197,7 +196,7 @@ const apps = [
     icon: "pinterest",
     type: "app",
     action: "EXTERNAL",
-    payload: "https://www.pinterest.com/blueedgetechno/",
+    payload: "https://www.pinterest.com/",
   },
   {
     name: "Security",
@@ -230,7 +229,7 @@ const apps = [
     icon: "twitter",
     type: "app",
     action: "EXTERNAL",
-    payload: "https://twitter.com/blueedgetechno",
+    payload: "https://twitter.com/",
   },
   {
     name: "Teams",
@@ -278,20 +277,6 @@ const apps = [
     name: "Cortana",
     icon: "cortana",
     type: "app",
-  },
-  {
-    name: "Github",
-    icon: "github",
-    type: "app",
-    action: "EXTERNAL",
-    payload: "https://github.com/blueedgetechno/win11React",
-  },
-  {
-    name: "Unescape",
-    icon: "unescape",
-    type: "action",
-    action: "EXTERNAL",
-    payload: "https://blueedge.me/unescape",
   },
   {
     name: "Discord",

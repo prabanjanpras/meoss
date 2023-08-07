@@ -128,9 +128,9 @@ export const Settings = () => {
                                   className="device_img"
                                 />
                                 <div className="column_device">
-                                  <p className="device_name">Liber-V</p>
-                                  <p className="device_model">NS14A8</p>
-                                  <p className="device_rename">Rename</p>
+                                  <p className="device_name">MEVirtualization server</p>
+                                  <p className="device_model">XEON E5 platinum @ 4.20 GHz</p>
+                                  <p className="device_rename"></p>
                                 </div>
                               </div>
                               <div className="right">

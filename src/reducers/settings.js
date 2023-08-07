@@ -17,7 +17,7 @@ const defState = {
     },
   },
   person: {
-    name: "Blue Edge",
+    name: "MEWebOS",
     theme: "light",
     color: "blue",
   },

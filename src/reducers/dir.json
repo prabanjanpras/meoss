@@ -74,9 +74,9 @@
               "Public Videos": {}
             }
           },
-          "Blue": {
+          "MEWebOS": {
             "type": "folder",
-            "name": "Blue",
+            "name": "MEVirtuaServer",
             "info": {
               "spid": "%user%",
               "icon": "user"

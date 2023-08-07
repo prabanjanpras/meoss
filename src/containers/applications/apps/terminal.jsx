@@ -9,7 +9,7 @@ import dirs from "./assets/dir.json";
 export const WnTerminal = () => {
   const wnapp = useSelector((state) => state.apps.terminal);
   const [stack, setStack] = useState(["OS [Version 10.0.22000.51]", ""]);
-  const [pwd, setPwd] = useState("C:\\Users\\Blue");
+  const [pwd, setPwd] = useState("C:\\Users\\MEVirtualEnvironment>>>");
   const [lastCmd, setLsc] = useState(0);
   const [wntitle, setWntitle] = useState("Terminal");
 
@@ -28,7 +28,7 @@ export const WnTerminal = () => {
       // handling the error
       IpDetails.push({
         ip: "__network_error",
-        network: "__kindly check internet connection",
+        network: "__kindly check your internet connection",
         city: "",
         region: "",
         org: "",
@@ -240,13 +240,13 @@ export const WnTerminal = () => {
       tmpStack.push("OS [Version 10.0.22000.51]");
     } else if (type == "systeminfo") {
       var dvInfo = [
-        "Host Name:                 BLUE",
-        "OS Name:                   Win11React Dummys Edition",
+        "Host Name:                 MEVirtualizationServer",
+        "OS Name:                   MEWEBOS",
         "OS Version:                10.0.22000 N/A Build 22000.51",
-        "OS Manufacturer:           ",
+        "OS Manufacturer:           MilkyUpizise",
         "OS Configuration:          Standalone Workstation",
         "OS Build Type:             Multiprocessor Free",
-        "Registered Owner:          Blue",
+        "Registered Owner:          MilkyUpizise",
         "Registered Organization:   N/A",
         "Product ID:                7H1S1-5AP1R-473DV-3R5I0N",
       ];

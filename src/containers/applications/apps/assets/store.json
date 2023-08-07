@@ -16,20 +16,20 @@
     }
   },
   {
-    "name": "Smash karts",
+    "name": "MilkyUpizise",
     "icon": "https://trefoilkingdom.com/uploads/games/42122/Smash-Karts.jpg",
-    "type": "game",
+    "type": "app",
     "data": {
       "type": "IFrame",
-      "url": "https://smashkarts.io",
+      "url": "https://dev-milkyupizise.pantheonsite.io",
       "gallery": [
         "https://static.gogy.com/ogimages/smashkarts-io.jpg",
         "https://yt3.ggpht.com/f4e3X0TDQ6edrwk29w6pBgxLdTnNUvZdBkDGDO0zqlWXY6NGVjdDvlTKhyg4apwjykBu-hSGuw=s900-c-k-c0x00ffffff-no-rj",
         "https://c.tenor.com/OOAB3Zw9lWsAAAAd/smash-karts-you-win.gif",
         "https://cdn.titotu.io/images/games/smash-karts-631x355.jpg"
       ],
-      "desc": "Smash Karts is a free io Multiplayer Kart Battle Arena game.\nIt is a three-dimensional multiplayer kart racing game. To win, you must drive your go-kart, pick up weaponry, and blow up other karts.",
-      "feat": "Drive fast\nFire rockets\nMake big explosions"
+      "desc": "A privacy based app",
+      "feat": "A privay based app with all features"
     }
   },
   {

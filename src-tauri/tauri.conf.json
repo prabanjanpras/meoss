@@ -32,7 +32,7 @@
     },
     "windows": [
       {
-        "fullscreen": false,
+        "fullscreen": true,
         "resizable": true,
         "title": "win11react",
         "width": 800,
