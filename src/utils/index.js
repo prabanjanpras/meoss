@@ -31,7 +31,6 @@ var { taskbar, desktop, pinned, recent } = {
     "Calculator",
     "Spotify",
     "Twitter",
-    "MilkyUpizise",
     "File Explorer",
     "Terminal",
     "Camera",
