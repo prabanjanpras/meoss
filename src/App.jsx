@@ -171,5 +171,75 @@ function App() {
     </div>
   );
 }
+const App = () => {
+  state = {
+    username: "",
+    password: "",
+    loggedIn: false,
+    data: [],
+  };
+
+  handleLogin = async (e) => {
+    e.preventDefault();
+    const { username, password } = this.state;
+    const response = await Netlify.call("api/login", {
+      username: username,
+      password: password,
+    });
+    if (response.statusCode === 200) {
+      this.setState({ loggedIn: true });
+    } else {
+      alert("Login failed");
+    }
+  };
+
+  handleSaveData = async (e) => {
+    e.preventDefault();
+    const { data } = this.state;
+    const response = await Netlify.call("api/save-data", { data: data });
+    if (response.statusCode === 200) {
+      alert("Data saved successfully");
+    } else {
+      alert("Failed to save data");
+    }
+  };
+
+  render();
+  {
+    if (this.state.loggedIn) {
+      return (
+        <BrowserRouter>
+          <Switch>
+            <Route path="/" exact>
+              <h1>Welcome!</h1>
+              <p>Your files and apps are accessible here.</p>
+              <input type="text" name="data" placeholder="Enter data" />
+              <input type="submit" value="Save" onClick={this.handleSaveData} />
+            </Route>
+            <Route path="/login" exact>
+              <h1>Login</h1>
+              <form onSubmit={this.handleLogin}>
+                <input type="text" name="username" placeholder="Username" />
+                <input type="password" name="password" placeholder="Password" />
+                <input type="submit" value="Login" />
+              </form>
+            </Route>
+          </Switch>
+        </BrowserRouter>
+      );
+    } else {
+      return (
+        <div>
+          <h1>Login</h1>
+          <form onSubmit={this.handleLogin}>
+            <input type="text" name="username" placeholder="Username" />
+            <input type="password" name="password" placeholder="Password" />
+            <input type="submit" value="Login" />
+          </form>
+        </div>
+      );
+    }
+  }
+};
 
 export default App;
