@@ -12,6 +12,19 @@
     "feat": "A privay based app with all features"
   }
  },
+ {
+  "name": "Python interpreter",
+  "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/115px-Python-logo-notext.svg.png?20220821155029",
+  "type": "app",
+  "data": {
+    "type": "IFrame",
+    "url": "https://programiz.pro/ide/python?utm_source=programiz_dot_com_python_compiler_save_button",
+    "gallery": [
+    ],
+    "desc": "Online python compiler",
+    "feat": "A full control interpreter and controller with virtual machines"
+  }
+ },
   {
     "name": "Minecraft",
     "icon": "https://raw.githubusercontent.com/andrewstech/windows11-1/master/public/img/icon/minecraft.png",
