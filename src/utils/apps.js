@@ -125,12 +125,6 @@ const apps = [
     payload: "mailto:milkyupizisecompany@gmail.com",
   },
   {
-    name: "MilkyUpizise",
-    icon: "edge",
-    type: "app",
-    action: "Milkyupizise",
-  },
-  {
     name: "Movies",
     icon: "movies",
     type: "app",
