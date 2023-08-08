@@ -3,6 +3,8 @@ import { ErrorBoundary } from "react-error-boundary";
 import { useDispatch, useSelector } from "react-redux";
 import "./i18nextConf";
 import "./index.css";
+import React, { Component } from "react";
+import { Netlify } from "@netlify/functions";
 
 import ActMenu from "./components/menu";
 import {
@@ -171,7 +173,9 @@ function App() {
     </div>
   );
 }
-const App = () => {
+
+
+const MyApp = () => {
   state = {
     username: "",
     password: "",
@@ -204,8 +208,7 @@ const App = () => {
     }
   };
 
-  render();
-  {
+  render() ; {
     if (this.state.loggedIn) {
       return (
         <BrowserRouter>
@@ -230,12 +233,24 @@ const App = () => {
     } else {
       return (
         <div>
-          <h1>Login</h1>
-          <form onSubmit={this.handleLogin}>
-            <input type="text" name="username" placeholder="Username" />
-            <input type="password" name="password" placeholder="Password" />
-            <input type="submit" value="Login" />
-          </form>
+          <h1>Login or Register</h1>
+          <div>
+            <h3>Login</h3>
+            <form onSubmit={this.handleLogin}>
+              <input type="text" name="username" placeholder="Username" />
+              <input type="password" name="password" placeholder="Password" />
+              <input type="submit" value="Login" />
+            </form>
+          </div>
+          <div>
+            <h3>Register</h3>
+            <form onSubmit={this.handleRegister}>
+              <input type="text" name="username" placeholder="Username" />
+              <input type="password" name="password" placeholder="Password" />
+              <input type="email" name="email" placeholder="Email" />
+              <input type="submit" value="Register" />
+            </form>
+          </div>
         </div>
       );
     }
