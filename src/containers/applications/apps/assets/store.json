@@ -15,6 +15,126 @@
 		}
 	},
 	{
+		"name": "METube",
+		   "icon": "https://dev-milkyupizise.pantheonsite.io/wp-content/uploads/2023/05/IMG_20220517_113204-360x270-1-300x225.jpg",
+		   "type": "app",
+		   "data": {
+			   "type": "IFrame",
+			   "url": "https://dev-metube.pantheonsite.io/",
+			   "invert": false,
+			   "gallery": [
+				   "https://dev-milkyupizise.pantheonsite.io/wp-content/uploads/2023/05/IMG_20220517_113204-360x270-1-300x225.jpg"
+			   ],
+			   "desc": "A privacy based social app",
+			   "feat": "watch videos,play,earn"
+		   }
+	},
+	{
+		"name": "MESocializer",
+		   "icon": "https://dev-milkyupizise.pantheonsite.io/wp-content/uploads/2023/05/mesocializer-300x198.png",
+		   "type": "app",
+		   "data": {
+			   "type": "IFrame",
+			   "url": "https://dev-mesocializer.pantheonsite.io/",
+			   "invert": false,
+			   "gallery": [
+				   "https://dev-milkyupizise.pantheonsite.io/wp-content/uploads/2023/05/mesocializer-300x198.png"
+			   ],
+			   "desc": "A privacy based social app",
+			   "feat": "watch videos,play,earn"
+		   }
+	},
+	{
+		"name": "MEschools",
+		   "icon": "https://dev-milkyupizise.pantheonsite.io/wp-content/uploads/2023/05/meschools-300x198.png",
+		   "type": "app",
+		   "data": {
+			   "type": "IFrame",
+			   "url": "https://dev-meschools.pantheonsite.io/",
+			   "invert": false,
+			   "gallery": [
+				   "https://dev-milkyupizise.pantheonsite.io/wp-content/uploads/2023/05/meschools-300x198.png"
+			   ],
+			   "desc": "A privacy based social app",
+			   "feat": "watch videos,play,earn"
+		   }
+	}, 
+	{
+		"name": "MEMusic",
+		   "icon": "https://dev-milkyupizise.pantheonsite.io/wp-content/uploads/2023/05/memusic-300x198.png",
+		   "type": "app",
+		   "data": {
+			   "type": "IFrame",
+			   "url": "https://dev-memusic.pantheonsite.io/",
+			   "invert": false,
+			   "gallery": [
+				   "https://dev-milkyupizise.pantheonsite.io/wp-content/uploads/2023/05/memusic-300x198.png"
+			   ],
+			   "desc": "A privacy based social app",
+			   "feat": "watch videos,play,earn"
+		   }
+	}, 
+	{
+		"name": "MEWallet",
+		   "icon": "https://dev-milkyupizise.pantheonsite.io/wp-content/uploads/2023/05/mewallet-300x198.png",
+		   "type": "app",
+		   "data": {
+			   "type": "IFrame",
+			   "url": "https://dev-mewallet.pantheonsite.io/",
+			   "invert": false,
+			   "gallery": [
+				   "https://dev-milkyupizise.pantheonsite.io/wp-content/uploads/2023/05/mewallet-300x198.png"
+			   ],
+			   "desc": "A privacy based social app",
+			   "feat": "watch videos,play,earn"
+		   }
+	}, 
+	{
+		"name": "MEMarket",
+		   "icon": "https://dev-milkyupizise.pantheonsite.io/wp-content/uploads/2023/05/memarket-300x198.png",
+		   "type": "app",
+		   "data": {
+			   "type": "IFrame",
+			   "url": "https://dev-memarket.pantheonsite.io/",
+			   "invert": false,
+			   "gallery": [
+				   "https://dev-milkyupizise.pantheonsite.io/wp-content/uploads/2023/05/memarket-300x198.png"
+			   ],
+			   "desc": "A privacy based social app",
+			   "feat": "watch videos,play,earn"
+		   }
+	}, 
+	{
+		"name": "MEBooks",
+		   "icon": "https://dev-milkyupizise.pantheonsite.io/wp-content/uploads/2023/05/mebooks-300x198.png",
+		   "type": "app",
+		   "data": {
+			   "type": "IFrame",
+			   "url": "https://dev-mebooks.pantheonsite.io/",
+			   "invert": false,
+			   "gallery": [
+				   "https://dev-milkyupizise.pantheonsite.io/wp-content/uploads/2023/05/mebooks-300x198.png"
+			   ],
+			   "desc": "A privacy based social app",
+			   "feat": "watch videos,play,earn"
+		   }
+	},  
+	{
+		"name": "MEQuiz",
+		   "icon": "https://dev-milkyupizise.pantheonsite.io/wp-content/uploads/2023/05/mequiz-300x198.png",
+		   "type": "app",
+		   "data": {
+			   "type": "IFrame",
+			   "url": "https://dev-mequiz.pantheonsite.io/",
+			   "invert": false,
+			   "gallery": [
+				   "https://dev-milkyupizise.pantheonsite.io/wp-content/uploads/2023/05/mequiz-300x198.png"
+			   ],
+			   "desc": "A privacy based social app",
+			   "feat": "watch videos,play,earn"
+		   }
+	},   
+	{
 		"name": "Python pro interpreter",
 		"icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
 		"type": "app",
