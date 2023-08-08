@@ -75,34 +75,4 @@ const menuReducer = (state = defState, action) => {
   }
 };
 
-import React, { useState } from "react";
-import StartMenu from "./StartMenu";
-
-const StartMenuContainer = () => {
-  const [state, setState] = useState({
-    menu: false,
-  });
-
-  const handleStartShw = () => {
-    setState({
-      menu: true,
-    });
-  };
-
-  return (
-    <div>
-      <StartMenu
-        menu={state.menu}
-        resizeStartMenu={() => {
-          setState({
-            menu: false,
-          });
-        }}
-      />
-      <button onClick={handleStartShw}>Show Start Menu</button>
-    </div>
-  );
-};
-
-
 export default menuReducer;
