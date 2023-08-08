@@ -75,4 +75,19 @@ const menuReducer = (state = defState, action) => {
   }
 };
 
+if (state.menu) {
+  return (
+    <div>
+      <StartMenu
+        width={window.innerWidth - 20}
+        height={window.innerHeight - 40}
+        resizeStartMenu={resizeStartMenu}
+      />
+    </div>
+  );
+} else {
+  return null;
+}
+
+
 export default menuReducer;
