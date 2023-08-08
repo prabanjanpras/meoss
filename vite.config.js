@@ -17,7 +17,6 @@ const config = ({ mode }) => {
     build: {
       outDir: "build",
       rollupOptions: {
-        external: ['@netlify/functions'],
         output: {
           manualChunks: (id) => {
             return "vendor";
